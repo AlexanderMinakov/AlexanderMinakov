@@ -17,8 +17,8 @@ title: Alexander Minakov
 email: oleksandr (dot) minakov (at) uclouvain (dot) be
 description: >- # this means to ignore newlines until "baseurl:" #Write an awesome description for your new site here. You can edit this #line in _config.yml. It will appear in your document head meta (for #Google  search results) and in your feed.xml site description.
   Post Doc at IRMP UCL
-baseurl: /oleksandr.minakov # the subpath of your site, e.g. /blog
-url: https://perso.uclouvain.be # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # /oleksandr.minakov # the subpath of your site, e.g. /blog
+url: https://AlexanderMinakov.github.io # https://perso.uclouvain.be # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: #jekyllrb #закомментировать, программа это не читает
 github_username:  #jekyll   #закомментировать, программа это не читает
 research_gate_username: Alexander_Minakov
