@@ -6,7 +6,7 @@ layout: SISSAstyle #default #home
 katex: true
 ---
 
-$$\cos^2{x} + \sin^2{x} = 1.$$
+$$e^{\pi i }=-1.$$
 
 <h3>
 I am a mathematician working in the field of {{ "nonlinear integrable equations" | capitalize }}
