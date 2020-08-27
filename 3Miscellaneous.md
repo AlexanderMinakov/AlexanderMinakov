@@ -1,11 +1,64 @@
 ---
-layout: page
-title: Events and Links
-permalink: /Events/
-katex: true
+title: Miscellaneous
+author: My Friend
+header-includes: |
+    \usepackage{tikz,pgfplots}
+    \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \fancyhead[CO,CE]{This is fancy}
+    \fancyfoot[CO,CE]{So is this}
+    \fancyfoot[LE,RO]{\thepage}
+abstract: This is a pandoc test with Markdown + inline LaTeX
+
+permalink: /Miscellaneous/
 ---
 
-$$x^2$$ xilofon $y^2$ $$z*z$$ pedagog
+Just say hello!
+===============
+
+
+
+
+This could be a good example or inlined \LaTeX:
+
+\begin{tikzpicture}
+\begin{axis}
+\addplot[color=red]{exp(x)};
+\end{axis}
+\end{tikzpicture}
+%Here ends the furst plot
+\hskip 5pt
+%Here begins the 3d plot
+\begin{tikzpicture}
+\begin{axis}
+\addplot3[
+    surf,
+]
+{exp(-x^2-y^2)*x};
+\end{axis}
+\end{tikzpicture}
+
+And now, just a few words to terminate:
+
+> Goodbye folks!
+
+<a href="https://medium.com/better-programming/how-to-make-a-beautiful-personal-website-quickly-cab115866134"> Create website GitHub Jekyll </a>
+
+<a href="https://xuc.me/blog/katex-and-jekyll/"> Katex Jekyll </a>
+
+<a href="https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages#dynamic-websites-static-websites--jekyll-"> Static website from scratch on GitHub Jekyll</a>
+
+<a href="https://stackoverflow.com/questions/2188884/how-can-i-mix-latex-in-with-markdown">Latex in markdown</a>
+
+<a href="https://eduardoboucas.com/blog/2015/05/11/rethinking-the-commenting-system-for-my-jekyll-site.html"> Adding comments </a>
+
+
+<h3><a href> Matlab vs Python (numpy) </a> </h3>
+
+Here we will look at a numerical method for solving partial differential equations.
+As an example we take the Korteweg-de Vries equation
+\\( u_t + 6 u u_x + u_{xxx} = 0 \\)
+
 
 <h3> Some events:</h3>
 
@@ -154,36 +207,6 @@ Some reading.
 <!-- -->
 <a href="https://www.b17.ru/blog/25sposobov_sprosit_kak_dela_v_shkole/">Kak dela</a>
 </small>
-
-
-
-
-
-
-
-
-
-
-$("script[type='math/tex']").replaceWith(
-	function(){
-		var tex = $(this).text();
-            return "<span class=\"inline-equation\">" + 
-                katex.renderToString(tex) +
-                "</span>";
-        });
-$("script[type='math/tex; mode=display']").replaceWith(
-    function(){
-		var tex = $(this).text();
-            return "<div class=\"equation\">" + 
-				katex.renderToString("\\displaystyle "+tex) +
-                   "</div>";
-        });
-
-
-
-
-
-
 
 
 
