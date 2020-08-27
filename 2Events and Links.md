@@ -5,6 +5,12 @@ permalink: /Events/
 katex: true
 ---
 
+Here, have some $$\pi$$.
+
+The greatest equation known to man is :
+
+$$e^{ix}=\cos{x} + i \sin{x}$$
+
 $$x^2$$ xilofon $y^2$ $$z*z$$ pedagog
 
 <h3> Some events:</h3>
@@ -154,32 +160,6 @@ Some reading.
 <!-- -->
 <a href="https://www.b17.ru/blog/25sposobov_sprosit_kak_dela_v_shkole/">Kak dela</a>
 </small>
-
-
-
-
-
-
-
-
-
-
-$("script[type='math/tex']").replaceWith(
-	function(){
-		var tex = $(this).text();
-            return "<span class=\"inline-equation\">" + 
-                katex.renderToString(tex) +
-                "</span>";
-        });
-$("script[type='math/tex; mode=display']").replaceWith(
-    function(){
-		var tex = $(this).text();
-            return "<div class=\"equation\">" + 
-				katex.renderToString("\\displaystyle "+tex) +
-                   "</div>";
-        });
-
-
 
 
 
