@@ -10,11 +10,11 @@
   {%- endif -%}
 	
 	
-  Here is my header outside of Katex
+  
 	
   <!-- https://xuc.me/blog/katex-and-jekyll/ -->
   {% if page.katex %}
-	Head Katex works offline, but still does not work on github
+	
 	<!-- Load jQuery -->
     <!-- <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
 	
@@ -26,12 +26,15 @@
 	<!-- Yx ty, Katex head -->
 	<!-- the next line is for UCL EOS -->
 	
+	<!-- {{site.url}}{{site.baseurl}} -->
+	
 	<!-- Use JQuery -->
 	<script src="{{site.url}}{{site.baseurl}}/assets/plugins/jquery/jquery.min.js"></script>
 	
 	<!-- Use Katex -->
 	<link rel ="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/plugins/katex/katex.min.css">
 	<script src="{{site.url}}{{site.baseurl}}/assets/plugins/katex/katex.min.js"></script>
+	
 	
 	<!-- <link rel="stylesheet" href="/assets/plugins/katex/katex.min.css"> -->
 	<!-- both ways work on github, but I think only the first way works on UCL.

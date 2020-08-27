@@ -3,7 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: SISSAstyle #default #home
+katex: true
 ---
+
+$$\int\limits_{-\infty}^{+\infty}\frac{\cos{x} dx}{1+x^2} = \frac{\pi}{e}.$$
 
 <h3>
 I am a mathematician working in the field of {{ "nonlinear integrable equations" | capitalize }}

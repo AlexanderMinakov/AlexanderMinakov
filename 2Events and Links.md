@@ -5,18 +5,10 @@ permalink: /Events/
 katex: true
 ---
 
-Here, have some 
-$$\pi \sin{x} e^{pi i}$$.
+Note that
+$$e^{i\varphi} = \cos{\varphi} + i \sin{\varphi}.$$
 
-$$\pi $$
-
-The greatest equation known to man is :
-
-$$e^{ix}=\cos{x} + i \sin{x}$$
-
-$$x^2$$ xilofon $y^2$ $$z*z$$ pedagog
-
-<h3> Some events:</h3>
+<h3> Some events: </h3>
 
 <p><li><small><mark> 2-7 February 2020</mark>
 <a href="https://www.birs.ca/events/2020/5-day-workshops/20w5013">
