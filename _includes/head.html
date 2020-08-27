@@ -8,11 +8,19 @@
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
-  
+	
+  <!-- https://xuc.me/blog/katex-and-jekyll/ -->
   {% if page.katex %}
-	<!-- Katex -->
-	Yx ty, Katex head
+	<!-- Load jQuery -->
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+	
+	<!-- Load Katex -->
+	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.js"></script> -->
+	<!-- Yx ty, Katex head -->
 	<!-- the next line is for UCL EOS -->
+	
+	<!-- Use Katex -->
 	<link rel ="stylesheet" href="{{site.url}}{{site.baseurl}}/assets/plugins/katex/katex.min.css">
 	<script src="{{site.url}}{{site.baseurl}}/assets/plugins/katex/katex.min.js"></script>
 	

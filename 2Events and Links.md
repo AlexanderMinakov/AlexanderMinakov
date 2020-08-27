@@ -5,7 +5,8 @@ permalink: /Events/
 katex: true
 ---
 
-Here, have some $$\pi$$.
+Here, have some 
+$$\pi \sin{x} e^{pi i}$$.
 
 The greatest equation known to man is :
 
