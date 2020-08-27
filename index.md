@@ -6,7 +6,7 @@ layout: SISSAstyle #default #home
 katex: true
 ---
 
-$$x^2.$$
+$$x^2 + y^2.$$
 
 <h3>
 I am a mathematician working in the field of {{ "nonlinear integrable equations" | capitalize }}
