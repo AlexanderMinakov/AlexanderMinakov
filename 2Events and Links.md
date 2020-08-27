@@ -8,6 +8,8 @@ katex: true
 Here, have some 
 $$\pi \sin{x} e^{pi i}$$.
 
+$$\pi $$
+
 The greatest equation known to man is :
 
 $$e^{ix}=\cos{x} + i \sin{x}$$

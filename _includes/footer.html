@@ -32,11 +32,9 @@
 
   </div>
   
+  <!-- Katex footer -->
   <!-- https://varunagrawal.github.io/2018/03/27/latex-jekyll/ -->
-  
-  <!--{% if page.katex %}
-	Yx ty, katex footer!
-	Katex footer
+  {% if page.katex %}
 	<script type="text/javascript">
 		$("script[type='math/tex']").replaceWith(
 		function(){
@@ -50,11 +48,9 @@
 				return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
 			});
 	</script>
-  {% endif %} -->
+  {% endif %}
   
-  
-  
-  <!-- https://xuc.me/blog/katex-and-jekyll/ -->
+  <!-- https://xuc.me/blog/katex-and-jekyll/  Here the fringing by the signs of scripts were missing. But still the previous code works better -->
   <!--{% if page.katex %}
 	$("script[type='math/text']").replaceWith(
 		function(){
@@ -69,6 +65,8 @@
 		});
 		
   {% endif %} -->
+  
+  <!--
   {% if page.katex %}
 	<script type="text/javascript">
 	$("script[type='math/text']").replaceWith(
@@ -84,7 +82,7 @@
 		});
 	</script>	
   {% endif %}
-  
+  -->
   
 
 </footer>

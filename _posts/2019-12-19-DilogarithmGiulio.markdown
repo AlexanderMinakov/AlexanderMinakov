@@ -18,7 +18,9 @@ katex: true
 <a href = "{{site.url}}{{site.baseurl}}/data/docs/ElementaryProblems/2019-12-19-problem-dilogarithm.pdf"> Solution</a>
 </h1>
 
-//(x^2//)
+$$x^2$$
+
+Do you know that $$(x+y)^2 \noteq x^2+y^2$$?
 
 $$x^2$$
 
