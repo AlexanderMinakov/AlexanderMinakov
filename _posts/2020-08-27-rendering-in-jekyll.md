@@ -5,7 +5,7 @@ date:   2020-08-27 12:25:00 +0200
 type: "ElementaryProblem"
 permalink: 
 latex: true
-katex: true
+katex: True
 ---
 
 
@@ -13,6 +13,10 @@ katex: true
 <a href = "{{site.url}}{{site.baseurl}}/data/docs/ElementaryProblems/2019-12-19-problem-dilogarithm.pdf"> Problem</a>
 </h1>
 
+
+$$y^2$$
+
+$$x+x$$
 
 {% raw %}
 <!-- The Normal Distribution -->
