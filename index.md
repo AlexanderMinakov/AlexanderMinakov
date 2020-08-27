@@ -6,7 +6,7 @@ layout: SISSAstyle #default #home
 katex: true
 ---
 
-$$\int\limits_{-\infty}^{+\infty}\frac{\cos{x} dx}{1+x^2} = \frac{\pi}{e}.$$
+$$\cos^2{x} + \sin^2{x} = 1.$$
 
 <h3>
 I am a mathematician working in the field of {{ "nonlinear integrable equations" | capitalize }}
