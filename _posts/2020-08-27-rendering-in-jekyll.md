@@ -9,6 +9,12 @@ katex: True
 ---
 
 
+Here, have some 
+$$\pi \sin{x} e^{pi i}$$.
+
+$$\pi $$
+
+
 <h1>
 <a href = "{{site.url}}{{site.baseurl}}/data/docs/ElementaryProblems/2019-12-19-problem-dilogarithm.pdf"> Problem</a>
 </h1>
